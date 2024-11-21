@@ -222,15 +222,15 @@ Abstrak berarti menaruh karakteristik-karakteristik yang diperlukan oleh sebuah 
  
 
   ![Create_staf](https://github.com/user-attachments/assets/c6c9a809-fec3-421e-982c-09fe9c158668)
-  - `Create`
+  - `Create`: Tampilan di atas menunjukkan data yang ditambahkan oleh staf berhasil.
 
 
   ![Update_staf](https://github.com/user-attachments/assets/48c962e7-c8fa-4ea4-a3a6-dfd4f04e31e2)
-  - `Update`
+  - `Update`: Update yang dilakukan oleh staf bisa melakukan perubahan status atau juga bisa mengubah data peminjaman, tampilan di atas menunjukkan update yang dilakukan berhasil.
  
 
   ![Delete_staf](https://github.com/user-attachments/assets/cfdb4b8d-5325-4036-bd6d-e51c16b1597b)
-  - `Delete`
+  - `Delete`: Tampilan di atas menunjukkan data yang dihapus berhasil
 
 
 - #### 3. Mahasiswa
@@ -240,13 +240,15 @@ Abstrak berarti menaruh karakteristik-karakteristik yang diperlukan oleh sebuah 
  
 
   ![Peminjaman_berhasil](https://github.com/user-attachments/assets/47e1f66b-9605-470e-bda3-d3bbe980570f)
-  - `Create`
- 
+  - `Create`: Mahasiswa dapat melaukan pengajuan peminjaman kelas, tampilan di atas menunjukkan bahwa kelas yang diajukan telah berhasil masuk ke data, jika kelas yang diajukan gagal maka akan muncul tampilan seperti berikut:
 
+  ![peminjaman_penuh_cut](https://github.com/user-attachments/assets/4a99f491-2909-4e28-a047-7101a1a30281)
+
+  
   ![searching_mahasiswa](https://github.com/user-attachments/assets/1998879f-bffa-41a4-a8d9-4afe464b94fd)
-  - `Searching`
+  - `Searching`: Mahasiswa dapat melakukan `searhing` dengan `berdasarkan program studi`
  
 
   ![sorting tanggal](https://github.com/user-attachments/assets/0e14d974-151c-4642-9179-bdecac21264b)
-  - `Sorting`
+  - `Sorting`: Mahasiswa dapat melakukan sorting berdasarkan `nama kelas`, `tanggal peminjaman`, dan `status peminjaman`.
 
