@@ -29,7 +29,10 @@ Program Class Think merupakan aplikasi yang dibuat menggunakan bahasa pemrograma
 
 ## Fitur Program
 #### Fitur Utama
-- Manajemen Peminjaman
+- Manajemen Peminjaman: Akses untuk staf mengelola data peminjaman yang ada (CRUD)
+- Autentikasi pengguna: Memverifikasi atau membuktikan bahwa user yang ingin mengakses aplikasi benar-benar user yang terdapat di dalam database.
+
+#### Fitur User
 - Staf
   - Create: Staf dapat menambahkan data peminjaman kelas 
   - Read: Staf dapat melihat riwayat peminjaman kelas
@@ -40,17 +43,173 @@ Program Class Think merupakan aplikasi yang dibuat menggunakan bahasa pemrograma
   - Searching: Menu searching mencari kelas yang ada di tabel peminjaman dan mencari berdasarkan program studi
   - Sorting:
 ## Penerapan 4 Pilar OOP
-#### Inheritance
+#### 1. Inheritance
 
+- Parent Class
+  
 ![Screenshot 2024-11-21 184029](https://github.com/user-attachments/assets/800b7450-c9c0-4705-96f0-4b5bef915019)
 
+- Child Class
+  
 ![Screenshot 2024-11-21 184043](https://github.com/user-attachments/assets/c6b7a657-82a0-417e-9230-a87c8030ee2d)
 
 ![Screenshot 2024-11-21 184057](https://github.com/user-attachments/assets/c05701a4-33c7-4b3b-af66-9363060150db)
 
 Pada program yang dibawakan, penerapan inheritance terdapat di bagian class `User` dimana class User merupakan `parent class`, `class Mahasiswa` dan `staf` merupakan `child class`
 
-#### Encapsulation
+#### 2. Encapsulation
+Bertujuan untuk menyembunyikan data yang sensitif dari suatu kelas.
+Penerapan encapsulation pada:
+- Model.PeminjamanModel.java
+  
+      public String getId() {
+            return id;
+        }
+    
+      public void setId(String id) {
+          this.id = id;
+      }
+  
+      public String getIdStaf() {
+          return idStaf;
+      }
+  
+      public void setIdStaf(String idStaf) {
+          this.idStaf = idStaf;
+      }
+  
+      public String getNim() {
+          return nim;
+      }
+  
+      public void setNim(String nim) {
+          this.nim = nim;
+      }
+  
+      public String getKelas() {
+          return kelas;
+      }
+  
+      public void setKelas(String kelas) {
+          this.kelas = kelas;
+      }
+  
+      public String getProdi() {
+          return prodi;
+      }
+  
+      public void setProdi(String prodi) {
+          this.prodi = prodi;
+      }
+  
+      public String getTanggal() {
+          return tanggal;
+      }
+  
+      public void setTanggal(String tanggal) {
+          this.tanggal = tanggal;
+      }
+  
+      public String getWaktu() {
+          return waktu;
+      }
+  
+      public void setWaktu(String waktu) {
+          this.waktu = waktu;
+      }
+  
+      public String getStatus() {
+          return status;
+      }
+  
+      public void setStatus(String status) {
+          this.status = status;
+      }
+  
+- Model.User.java
+  
+      public String getUsername() {
+            return username;
+        }
+  
+      public void setUsername(String username) {
+          this.username = username;
+      }
+  
+      public String getPassword() {
+          return password;
+      }
+  
+      public void setPassword(String password) {
+          this.password = password;
+      }
+  
+- Model.Mahasiswa.java
 
+      public String getProdi() {
+          return prodi;
+      }
+  
+      public void setProdi(String prodi) {
+          this.prodi = prodi;
+      }
 
+- Model.Staf.java
+
+      public String getJabatan() {
+          return jabatan;
+      }
+  
+      public void setJabatan(String jabatan) {
+          this.jabatan = jabatan;
+      }
+
+#### 3. Polymorphism
+Metode yang memungkinkan sebuah kelas untuk memiliki nama `method yang sama`, namun dengan `parameter yang berbeda`.
+Diterapkan pada: 
+- Model.Mahasiswa.java
+
+      @Override
+      public boolean login(DatabaseInterface dbInterface) {
+          String query = "SELECT * FROM mahasiswa WHERE nim = ? AND password = ?";
+          try (ResultSet rs = dbInterface.executeSelectQuery(query, this.username, this.password)) {
+              if (rs.next()) {
+                  System.out.println("Login Mahasiswa Berhasil: " + rs.getString("nama_mahasiswa"));
+                  return true;
+              }
+          } catch (SQLException e) {
+              e.printStackTrace();
+          }
+          return false;
+      }
+
+- Model.Staf.java
+
+      @Override
+      public boolean login(DatabaseInterface dbInterface) {
+          String query = "SELECT * FROM staf WHERE id_staf = ? AND password = ?";
+          try (ResultSet rs = dbInterface.executeSelectQuery(query, this.username, this.password)) {
+              if (rs.next()) {
+                  System.out.println("Login Staf Berhasil: " + rs.getString("nama_staf"));
+                  return true;
+              }
+          } catch (SQLException e) {
+              e.printStackTrace();
+          }
+          return false;
+      }
+
+#### 4. Abstraction
+Abstrak berarti menaruh karakteristik-karakteristik yang diperlukan oleh sebuah kelas, tanpa harus menampilkan detail dari karakteristik tersebut.
+`Abstrak` diterapkan pada `class User`
+
+    public abstract class User {
+      protected String username;
+      protected String password;
+  
+      // Konstruktor
+      public User(String username, String password) {
+          this.username = username;
+          this.password = password;
+      }
 ## Output Program
