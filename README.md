@@ -227,6 +227,26 @@ Abstrak berarti menaruh karakteristik-karakteristik yang diperlukan oleh sebuah 
 
   ![Update_staf](https://github.com/user-attachments/assets/48c962e7-c8fa-4ea4-a3a6-dfd4f04e31e2)
   - `Update`
+ 
+
+  ![Delete_staf](https://github.com/user-attachments/assets/cfdb4b8d-5325-4036-bd6d-e51c16b1597b)
+  - `Delete`
 
 
 - #### 3. Mahasiswa
+
+  ![Screenshot 2024-11-21 205853](https://github.com/user-attachments/assets/11fe391d-d151-463d-a66b-ebb929fa44bc)
+  - Gambar di atas merupakan `tampilan awal` dari mahasiswa
+ 
+
+  ![Peminjaman_berhasil](https://github.com/user-attachments/assets/47e1f66b-9605-470e-bda3-d3bbe980570f)
+  - `Create`
+ 
+
+  ![searching_mahasiswa](https://github.com/user-attachments/assets/1998879f-bffa-41a4-a8d9-4afe464b94fd)
+  - `Searching`
+ 
+
+  ![sorting tanggal](https://github.com/user-attachments/assets/0e14d974-151c-4642-9179-bdecac21264b)
+  - `Sorting`
+
