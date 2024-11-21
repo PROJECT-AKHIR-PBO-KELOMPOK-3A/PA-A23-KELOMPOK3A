@@ -218,5 +218,15 @@ Abstrak berarti menaruh karakteristik-karakteristik yang diperlukan oleh sebuah 
 - #### 2. Staf
 
   ![Screenshot 2024-11-21 203840](https://github.com/user-attachments/assets/48b7cdd6-52f7-419a-b3b6-efd8bc4402f3)
+  - Gambar di atas merupakan `tampilan awal` dari staf
+ 
+
+  ![Create_staf](https://github.com/user-attachments/assets/c6c9a809-fec3-421e-982c-09fe9c158668)
+  - `Create`
+
+
+  ![Update_staf](https://github.com/user-attachments/assets/48c962e7-c8fa-4ea4-a3a6-dfd4f04e31e2)
+  - `Update`
+
 
 - #### 3. Mahasiswa
