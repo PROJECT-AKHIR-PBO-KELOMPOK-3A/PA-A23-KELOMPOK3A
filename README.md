@@ -214,20 +214,37 @@ Abstrak berarti menaruh karakteristik-karakteristik yang diperlukan oleh sebuah 
       }
 ## Output Program
 - #### 1. Login
-  
+
+  ![Screenshot 2024-11-21 213647](https://github.com/user-attachments/assets/999fa024-4951-463d-8ad8-3750c89bc564)
+
+  ![Screenshot 2024-11-21 213711](https://github.com/user-attachments/assets/ab262e57-904b-48b7-83c7-9aa23d0c3ac5)
+
+  Login dilakukan dengan memasukkan NIM atau id staf, nantinya sistem akan menilai sendiri, jika yang diinputkan adalah NIM maka akan masuk ke menu mahasiswa, dan jika yang diinputkan adalah id staf maka akan masuk ke menu staf
+
+
 - #### 2. Staf
 
   ![Screenshot 2024-11-21 203840](https://github.com/user-attachments/assets/48b7cdd6-52f7-419a-b3b6-efd8bc4402f3)
   - Gambar di atas merupakan `tampilan awal` dari staf
  
 
+
+
+
+
   ![Create_staf](https://github.com/user-attachments/assets/c6c9a809-fec3-421e-982c-09fe9c158668)
   - `Create`: Tampilan di atas menunjukkan data yang ditambahkan oleh staf berhasil.
+
+
+
 
 
   ![Update_staf](https://github.com/user-attachments/assets/48c962e7-c8fa-4ea4-a3a6-dfd4f04e31e2)
   - `Update`: Update yang dilakukan oleh staf bisa melakukan perubahan status atau juga bisa mengubah data peminjaman, tampilan di atas menunjukkan update yang dilakukan berhasil.
  
+
+
+
 
   ![Delete_staf](https://github.com/user-attachments/assets/cfdb4b8d-5325-4036-bd6d-e51c16b1597b)
   - `Delete`: Tampilan di atas menunjukkan data yang dihapus berhasil
@@ -239,15 +256,24 @@ Abstrak berarti menaruh karakteristik-karakteristik yang diperlukan oleh sebuah 
   - Gambar di atas merupakan `tampilan awal` dari mahasiswa
  
 
+
+
+
   ![Peminjaman_berhasil](https://github.com/user-attachments/assets/47e1f66b-9605-470e-bda3-d3bbe980570f)
   - `Create`: Mahasiswa dapat melaukan pengajuan peminjaman kelas, tampilan di atas menunjukkan bahwa kelas yang diajukan telah berhasil masuk ke data, jika kelas yang diajukan gagal maka akan muncul tampilan seperti berikut:
 
   ![peminjaman_penuh_cut](https://github.com/user-attachments/assets/4a99f491-2909-4e28-a047-7101a1a30281)
 
+
+
+
   
   ![searching_mahasiswa](https://github.com/user-attachments/assets/1998879f-bffa-41a4-a8d9-4afe464b94fd)
   - `Searching`: Mahasiswa dapat melakukan `searhing` dengan `berdasarkan program studi`
- 
+
+
+
+
 
   ![sorting tanggal](https://github.com/user-attachments/assets/0e14d974-151c-4642-9179-bdecac21264b)
   - `Sorting`: Mahasiswa dapat melakukan sorting berdasarkan `nama kelas`, `tanggal peminjaman`, dan `status peminjaman`.
