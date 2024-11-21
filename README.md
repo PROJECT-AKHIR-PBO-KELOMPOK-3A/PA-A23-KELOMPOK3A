@@ -40,8 +40,9 @@ Program Class Think merupakan aplikasi yang dibuat menggunakan bahasa pemrograma
   - Delete: Staf dapat menghapus record data peminjaman kelas
 - Mahasiswa
   - Create: Mahasiswa pada menu create berarti mengajukan peminjaman kelas
+  - Read: Mahasiswa dapat melihat riwayat peminjaman kelas
   - Searching: Menu searching mencari kelas yang ada di tabel peminjaman dan mencari berdasarkan program studi
-  - Sorting:
+  - Sorting: Menu sorting pada mahasiswa dapat dilakukan berdasarkan nama kelas, tanggal, dan status peminjaman
 ## Penerapan 4 Pilar OOP
 #### 1. Inheritance
 
