@@ -28,15 +28,29 @@ Program Class Think merupakan aplikasi yang dibuat menggunakan bahasa pemrograma
 ![FlowChart PA PBO fix](https://github.com/user-attachments/assets/dd3443c6-26c4-4e7e-946d-5d7f5c066c3f)
 
 ## Fitur Program
+#### Fitur Utama
+- Manajemen Peminjaman
 - Staf
   - Create: Staf dapat menambahkan data peminjaman kelas 
   - Read: Staf dapat melihat riwayat peminjaman kelas
   - Update: Staf dapat melakukan perubahan pada jadwal peminjaman dan juga mengubah status ketersediaan kelas
   - Delete: Staf dapat menghapus record data peminjaman kelas
 - Mahasiswa
-  - Create:
-  - Searching:
+  - Create: Mahasiswa pada menu create berarti mengajukan peminjaman kelas
+  - Searching: Menu searching mencari kelas yang ada di tabel peminjaman dan mencari berdasarkan program studi
   - Sorting:
 ## Penerapan 4 Pilar OOP
+#### Inheritance
+
+![Screenshot 2024-11-21 184029](https://github.com/user-attachments/assets/800b7450-c9c0-4705-96f0-4b5bef915019)
+
+![Screenshot 2024-11-21 184043](https://github.com/user-attachments/assets/c6b7a657-82a0-417e-9230-a87c8030ee2d)
+
+![Screenshot 2024-11-21 184057](https://github.com/user-attachments/assets/c05701a4-33c7-4b3b-af66-9363060150db)
+
+Pada program yang dibawakan, penerapan inheritance terdapat di bagian class `User` dimana class User merupakan `parent class`, `class Mahasiswa` dan `staf` merupakan `child class`
+
+#### Encapsulation
+
 
 ## Output Program
