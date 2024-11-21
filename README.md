@@ -14,12 +14,11 @@ Program Class Think merupakan aplikasi yang dibuat menggunakan bahasa pemrograma
 
 ![Screenshot 2024-11-21 155556](https://github.com/user-attachments/assets/2105ce07-41d4-4834-90fb-9633c93bff64)
 
-- Package Controller
-  
-- Package Database: Berguna untuk menghubungkan antara program dengan database
-- Package Image
+- Package Controller: Berisi class atau logika yang mengatur alur kerja program, yang mana setiap user yang terlibat dengan aplikasi bisa mengakses class peminjaman.
+- Package Database: Berguna untuk menghubungkan antara program dengan database.
+- Package Image: Berisi file atau resource gambar yang digunakan oleh program. Package ini tidak berisi class, tetapi menjadi tempat penyimpanan gambar-gambar
 - Package Main: Untuk menjalankan program
-- Package Model
+- Package Model: Berisi class yang merepresentasikan data atau entitas dalam program
 - Package View: Untuk menampilkan GUI
   
 
@@ -214,3 +213,10 @@ Abstrak berarti menaruh karakteristik-karakteristik yang diperlukan oleh sebuah 
           this.password = password;
       }
 ## Output Program
+- #### 1. Login
+  
+- #### 2. Staf
+
+  ![Screenshot 2024-11-21 203840](https://github.com/user-attachments/assets/48b7cdd6-52f7-419a-b3b6-efd8bc4402f3)
+
+- #### 3. Mahasiswa
