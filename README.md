@@ -3,7 +3,7 @@
 
 ## Anggota Kelompok
 1. Muhammad Alfian Adien (2309116034)
-2. Muhammad Nabil Ma'ruf (2309116034)
+2. Muhammad Nabil Ma'ruf (2309116035)
 3. Andromeda Hibnu Darmawi (2309116038)
 4. Rifqi Hadi Wijaya (2309116042)
 
