@@ -27,8 +27,16 @@ Program Class Think merupakan aplikasi yang dibuat menggunakan bahasa pemrograma
 
 ![FlowChart PA PBO fix](https://github.com/user-attachments/assets/dd3443c6-26c4-4e7e-946d-5d7f5c066c3f)
 
+## Fitur Program
+- Staf
+  - Create: Staf dapat menambahkan data peminjaman kelas 
+  - Read: Staf dapat melihat riwayat peminjaman kelas
+  - Update: Staf dapat melakukan perubahan pada jadwal peminjaman dan juga mengubah status ketersediaan kelas
+  - Delete: Staf dapat menghapus record data peminjaman kelas
+- Mahasiswa
+  - Create:
+  - Searching:
+  - Sorting:
 ## Penerapan 4 Pilar OOP
-
-## Fitur-fitur
 
 ## Output Program
